@@ -6,7 +6,6 @@ const Counter = () => {
 
   return (
     <div> 
-    <h1>Hello</h1>
       <button onClick={() => dispatch("Increment")}>Increment +</button>
       <button onClick={() => dispatch("Decrement")}>Decrement -</button>
       <h2>{count}</h2>
